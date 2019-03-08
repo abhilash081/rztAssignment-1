@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding:0;
+}
+header{
+	background-color: black;
+	height: 50px;
+	
+}	
+img{
+	position: absolute;
+	height: 50px;
+	left: 30px;
+	}
+.logo{
+	float: left;
+	width: 50%;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+
+}
+.navigation{
+	float:left;
+	background-color: transparent;
+	width: 50%;
+	height: 50px;
+	position: relative;
+}
+nav{
+	position: absolute;
+	bottom: 15px;
+	right: 30px;
+}
+button{
+	background-color: transparent;
+	color:white;
+	margin-right: 10px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+}
+p.up{
+		display: none;
+		position: absolute;
+		border: solid white;
+  		border-width: 0 3px 3px 0;
+  		padding: 3px;
+  		right: 30px;
+  		top:-20px;
+  		transform: rotate(-135deg);
+	}
+
+	  .home {
+		margin: 45px 180px 10px 10px;
+  	  }
+	  .work {
+	  	margin: 45px 120px 10px 10px;
+	  }
+	  .us {
+	  	margin: 45px 65px 10px 10px;
+	  }
+	  .contact {
+  		margin: 45px 10px 10px 10px;
+	  }
+
+	  .bHome:hover .home{
+	  	display: inline;
+
+	  }
+	  .bWork:hover .work{
+	  	display: inline;
+
+	  }
+	  .bUs:hover .us{
+	  	display: inline;
+
+	  }
+	  .bContact:hover .contact{
+	  	display: inline;
+
+	  }
